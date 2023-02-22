@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: black; */
+    background-image: linear-gradient(pink,aqua,pink, aqua);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+.main-block {
+    height: 100vh;
+}
+
+.main-block article {
+    display: flex;
+    justify-content: center;
+    padding: 2vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+form input,button {
+    padding: 1vw;
+    font-size: 2vw;
+    margin: 0.2vw; 
+    border-radius: 2.7vw;
+    /* border: 2px solid rgb(144, 93, 196); */
+    box-shadow: 0px 0px 10px 2px rgb(128, 67, 175);
+    /* border-radius: 20px;
+    border-color: blue; */
+    /* align-items: center; */
+}
+form button:hover{
+    background-color: rgb(63, 115, 198);
+}
+
+.card {
+    font-family:Segoe Print ;
+    background-color:rgba(0, 255, 213, 0.198);
+    background-image: linear-gradient(aqua,pink,rgb(211, 171, 177), greenyellow);
+    /* box-shadow: 0px 0px 10px 1px rgb(128, 67, 175); */
+    /* background-image:url("https://img.freepik.com/free-photo/dark-stormy-clouds_181624-61.jpg?w=1800&t=st=1676822559~exp=1676823159~hmac=095b819750306a5f37d75f0a856f1690445d0ad66864aac881fafca7fc4925bb"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50vw;
+    height: 40vw;
+    font-size: 2vw;
+    padding: 1vw;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 4px rgb(128, 67, 175);
+   transition-property: all;
+   animation:alternate;
+   animation-duration: 3s;
+   animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        /* width: 265%; */
+        width: 50vw;
+        height: 40vw;
+    }
+    
+    to {
+        margin-left: 0%;
+        /* width: 265%; */
+        width: 50vw;
+        height: 40vw;
+      }
+}
+.card:hover {
+    /* box-shadow: 0px 0px 20px 5px rgb(125, 43, 167); */
+    transform:scale(1.1) ;
+    margin:20px ;
+    
+}
+p{
+    position: absolute;
+}
+
+.card h1 {
+    
+    text-align: center;
+    font-size: 3vw;
+    /* border-radius: 30px;
+    box-shadow: 0px 0px 10px 1px rgb(128, 67, 175); */
+
+}
+img{
+    width: 10vw;
+   position: relative;
+}
+
+.description {
+    font-size: 3vw;  
+    position: absolute;
+    margin:-3vw 0vw 0vw 0.5vw ;
+}
+.temp{
+    position: absolute;
+    margin: -13.89vw 0vw 0vw 27.5vw;
+    font-size: 3vw;
+}
+.mtemp{
+    font-size: 1.5vw;
+    position: absolute;
+    margin:-7.89vw 0vw 0vw 31.5vw ;
+}
+.wind{
+    position: absolute;
+    margin:0.11vw 0vw 0vw 32.5vw;
+    font-size: 3vw;
+}
+.lon{
+    position: absolute;
+    margin:14.11vw 0vw 0vw 8.5vw ;
+}
+.vis{
+    margin: 4.11vw 0vw 0vw 0.5vw;
+}
+
+.ownerinfo{
+    position: absolute;
+    margin:17.4vw 0vw 0vw 35.5vw ;
+    font-size: 1vw;
+    text-decoration: none;
+    color:black;
+}
+.ownerinfo:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    color: blue;
+    margin: 17.4vw 0vw 0vw 35vw;
+   
+}
