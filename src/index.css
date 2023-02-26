@@ -128,11 +128,16 @@ img{
     font-size: 1vw;
     text-decoration: none;
     color:black;
+    
 }
 .ownerinfo:hover{
     transform: scale(1.1);
     text-decoration: underline;
     color: blue;
     margin: 17.4vw 0vw 0vw 35vw;
+   
+}
+
+@media screen and (min-width:100px){
    
 }
