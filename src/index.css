@@ -5,7 +5,8 @@
 }
 body{
     /* background-color: black; */
-    background-image: linear-gradient(pink,aqua,pink, aqua);
+    /* background-image: linear-gradient(pink,aqua,pink, aqua); */
+    background-image:url("https://i.stack.imgur.com/FsY6H.jpg");
     background-size: cover;
     /* background-repeat: no-repeat; */
 }
@@ -29,20 +30,23 @@ form input,button {
     border-radius: 2.7vw;
     /* border: 2px solid rgb(144, 93, 196); */
     box-shadow: 0px 0px 10px 2px rgb(128, 67, 175);
+    font-family:cursive,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     /* border-radius: 20px;
     border-color: blue; */
     /* align-items: center; */
 }
 form button:hover{
-    background-color: rgb(63, 115, 198);
+    background-color: rgb(128, 67, 175);
 }
 
 .card {
     font-family:Segoe Print ;
     background-color:rgba(0, 255, 213, 0.198);
-    background-image: linear-gradient(aqua,pink,rgb(211, 171, 177), greenyellow);
+    /* background-image: linear-gradient(aqua,pink,rgb(211, 171, 177), greenyellow); */
+    background-image: linear-gradient(rgba(149, 65, 183, 0.2), rgba(255, 255, 255, 0.333));
     /* box-shadow: 0px 0px 10px 1px rgb(128, 67, 175); */
     /* background-image:url("https://img.freepik.com/free-photo/dark-stormy-clouds_181624-61.jpg?w=1800&t=st=1676822559~exp=1676823159~hmac=095b819750306a5f37d75f0a856f1690445d0ad66864aac881fafca7fc4925bb"); */
+    /* background-image:url("https://i.stack.imgur.com/FsY6H.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     width: 50vw;

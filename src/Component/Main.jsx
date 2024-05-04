@@ -30,7 +30,7 @@ const Main = () => {
             <form onSubmit={handleSubmit}>
                 <input 
                 type="text"
-                placeholder='Search Country...'
+                placeholder='Search Your City...'
                 onChange={e => {
                     setCity(e.target.value);
                 }}
@@ -60,6 +60,7 @@ const Main = () => {
                         <p className='wind'>💨 {value.wind.speed}</p>
                         
                         <p className='vis'>visibility : {value.visibility} m</p>
+                        
                         <a className='ownerinfo' href='https://github.com/abhishekth0203'>Created By Mr. Abhishek</a>
                         {/* <p className='ownerinfo'>Created By Mr. Abhishek</p> */}
                         </div>
